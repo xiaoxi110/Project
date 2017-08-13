@@ -1,0 +1,622 @@
+.top{
+	width: 100%;
+	background: #f3f3f3;
+}
+.top .top_bar{
+	height: 16px;
+	padding: 7px 0;
+}
+.bar_left li{
+	height: 16px;
+	font: bold 12px/16px "新宋体";
+	margin-right: 15px;
+}
+.bar_left .bl_imgbox{
+	width: 10px;
+	height: 10px;
+	padding: 2px;
+	border: 1px solid #e6e6e6;
+	margin-right: 5px;
+}
+.bl_imgbox .two_code{
+	display: block;
+	width: 10px;
+	height: 10px;
+	overflow: hidden;			/*高度小于19px在ie6下会出现最小高度问题，加overflow：hidden；可以解决*/
+	background-position: 0 0;
+}
+.bar_left a{
+	line-height: 16px;
+}
+.top_bar .bar_right{
+	height: 16px;
+	width: 709px;
+	overflow: hidden;
+}
+.bar_right .br_tips{
+	font: 12px/16px "新宋体";
+	color: #a5a5a5;
+	padding-right: 11px;
+}
+.bar_right .login{
+	width: 72px;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+}
+.login a{
+	line-height: 16px;
+	margin-right: 10px;
+}
+.bar_right .mine{
+	width: 140px;
+	height: 16px;
+	padding-left: 9px;
+}
+.mine a{
+	line-height: 16px;
+}
+.bar_right .sevice{
+	width: 304px;
+	height: 16px;
+	padding-left: 9px;
+}
+.sevice a{
+	margin-right: 20px;
+	line-height: 16px;
+	float: left;
+}
+.bar_right .shop{
+	width: 67px;
+	height: 16px;
+}
+.shop .shop_name{
+	float: left;
+	line-height: 16px;
+	overflow: hidden;
+}
+/**************************************************************************/
+.head{
+	height: 64px;
+	padding:14px 0 16px;
+}
+.head .title{
+	float: left;
+	width: 200px;
+	height: 0;
+	padding-top: 43px;
+	overflow: hidden;
+	margin: 6px 11px 0 0;
+	background-position: 0 0;
+}
+.head .search{
+	float: left;
+	margin-top: 2px;
+	width: 500px;
+	height: 71px;
+}
+.search input{
+	width: 407px;
+	height: 30px;
+	line-height: 34px;
+	border: 2px solid #e3101e;
+}
+.search .button{
+	float: left;
+	width: 89px;
+	height: 34px;
+	background: #e3101e;
+	text-align: center;
+}
+.button a{
+	line-height: 32px;
+	font-size: 16px;
+	color: #fff;
+}
+.search .choice{
+	width: 500px;
+	height: 28px;
+}
+.choice a{
+	line-height: 28px;
+	margin-right: 3px;
+	overflow: hidden;
+	color:#c7bca5;
+}
+.head .shopcar_box{
+	position: relative;
+	float: right;
+	width: 131px;
+	height: 33px;
+}
+.shopcar_box a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 131px;
+	height: 33px;
+	z-index: 1;
+}
+.shopcar_box .shopcar{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 27px;
+	height: 20px;
+	background-position: -27px 0;
+}
+.shopcar .goods_numbox{
+	position: absolute;
+	bottom: 18px;
+	left: 12px;
+	width: 20px;
+	height: 15px;
+	background: #e3101e;
+	text-align: center;
+	z-index: 1;
+	overflow: hidden;
+}
+.goods_numbox .goods_num{
+	font-size:10px;
+	color: #fff;
+}
+.small_icon .triangle{
+	position: absolute;
+	bottom: 14px;
+	left: 12px;
+	width: 0;
+	height: 0;
+	border:4px solid #fff;
+	border-left-color: #e3101e;
+	overflow: hidden;
+}
+.shopcar_box .desc{
+	position: absolute;
+	bottom: 2px;
+	left: 34px;
+	height: 12px;
+	font:normal 12px/12px "新宋体";
+}
+.shopcar_box .shopcar_up{
+	position: absolute;
+	right: 12px;
+	bottom: 5px;
+}
+/***********************************************************************************/
+.navigat{
+	position: relative;
+	height: 40px;
+	z-index: 1;               /*这里采用层级提升 是为了让他下面的ul的层级得到提升*/
+}
+.navigat .nav_as{
+	float: left;
+	height: 40px;
+}
+.nav_as a{
+	float: left;
+	height: 36px;
+	padding:0 19px;
+	border-bottom: 4px solid #fff;
+	overflow: hidden;
+	font: bold 12px/36px "宋体";
+	color: #000;
+}
+.navigat .rightroll{
+	position: absolute;
+	top: 12px;
+	right: 0;
+	width: 145px;
+	height: 18px;
+}
+.rightroll a{
+	margin-right: 0;
+}
+.rightroll .roll_up{
+	position: absolute;
+	top: 1px;
+	right: 8px;
+	width: 7px;
+	height: 4px;
+	background-position: -2px -16px;
+	overflow: hidden;
+}
+.rightroll .roll_down{
+	position: absolute;
+	bottom: 1px;
+	right: 8px;
+	width: 7px;
+	height: 4px;
+	background-position: -10px -16px;
+	overflow: hidden;
+}
+.navigat .left_class{
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 40px;
+	border-bottom: none;
+}
+.left_class h3{
+	width: 200px;
+	height: 39px;
+	text-indent: 15px;
+	background: #303a47;
+	color: #fff;
+	opacity: 0.8;
+}
+.left_class h3 span{
+	float: left;
+	height: 39px;
+	font: bold 16px/42px "微软雅黑";
+}
+.left_class .navleft{
+	position: absolute;
+	top: 39px;
+	left: 0;
+	width: 200px;
+	height: 452px;
+	background: #303a47;
+	opacity: 0.8;
+	color: #fff;
+}
+.navleft a{
+	color: #fff;
+	font-family: "华文宋体";
+}
+.navleft .elec{
+	height:149px;
+	border-bottom:1px solid #3e4854;
+	padding-top: 1px;
+	overflow: hidden;
+}
+.navleft .family_used, .navleft .foods, .navleft .clothes{
+	height:59px;
+	border-bottom:1px solid #3e4854;
+	overflow: hidden;
+}
+.navleft .cars{
+	height:119px;
+	overflow: hidden;
+}
+.navleft .navleft_list{
+	margin-left: 15px;
+}
+.navleft_list .navleft_tag{
+	float: left;
+	width: 170px;         /* 此处要设置宽度，不然在ie6下会出现不换行 或者换行乱序的问题*/
+	height: 12px;
+	padding: 9px 0;
+}
+.navleft_tag a{
+	float: left;
+	color: #fff;
+	margin-right: 6px;
+	line-height: 12px;
+}
+/*********************************************************************************************/
+.navigat .navright{
+	position: absolute;
+	top: 41px;
+	right: 0;
+	width: 250px;
+	height: 448px;
+	border: 2px solid #e6e6e6;
+	border-left: none;
+	border-right: none;
+	background: #fff;
+}
+.navright .navright_top{
+	width: 220px;
+	height: 198px;
+	padding :8px 10px 10px 20px;
+}
+.navright_top .navright_top_head{
+	width: 220px;
+	height:30px;
+}
+.navright_top_head .navr_title{
+	float: left;
+	width: 40px;
+	height:30px;
+	font:bold 14px/30px "微软雅黑";
+}
+.navright_top_head .navr_more{
+	float: right;
+	width: 33px;
+	height: 22px;
+}
+.navr_more .more{
+	float: left;
+	font: 12px/22px "宋体";
+	color: #999999;                  
+}
+.navr_more .to_more{
+	float: right;
+	width: 5px;
+	height: 7px;
+	margin-top: 8px;
+	background-position: -18px -16px;
+	overflow: hidden;                   /*解决ie6下最小高度问题*/
+}
+.navright .quick_mes_tag{
+	height: 12px;
+	padding: 6px 0;
+	overflow: hidden;                /*此处是块元素,不加overflow在ie6下高度还是会被撑开 最小高度是存在于块元素和内联元素都有的*/
+}
+.quick_mes_tag .quick_mes_name{
+	overflow: hidden;
+	font: 12px/12px "宋体";
+	color: #999999;
+	margin-right: 8px;
+}
+.quick_mes_tag .quick_mes_link{
+	overflow: hidden;
+	font: 12px/12px "宋体";
+	color: #666666;
+}
+.navright .navright_bottom{
+	width: 250px;
+	height: 233px;
+}
+.navright_bottom .living_service{
+	width: 248px;
+	height: 32px;
+	border-bottom: 1px solid #f3f3f3;
+	margin-left:　1px;
+	font: bold 14px/32px "微软雅黑";
+	text-indent: 20px;
+}
+.navright_bottom .sertop_list{
+	width: 210px;
+	height: 97px;
+	border-bottom: 1px solid #f3f3f3;
+}
+.sertop_list .sertop_tag{
+	float:left;
+	width: 50px;
+	height: 78px;
+	padding-top: 19px;
+	margin-left: 0;
+	margin-right: 2px;    /*????????????????为啥在ie6下第一个图片的左边多了5px*/
+}
+.sertop_tag a{
+	display: block;
+	text-align: center;
+	width: 50px;
+	height: 78px;
+}
+.sertop_tag_as .imgtag{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+.sertop_tag_as .mob{
+	background-position: 0 -24px;
+}
+.sertop_tag_as .car{
+	background-position: -31px -24px;
+}
+.sertop_tag_as .ser{
+	background-position: 0 -55px;
+}
+.sertop_tag_as .trip{
+	background-position: -31px -55px;
+}
+.sertop_tag_as strong{
+	display: block;
+	margin: 8px 0 0 7px;
+	text-align: center;
+	width: 36px;
+	height: 12px;
+	text-align: center;
+	font: normal 12px/12px "新宋体";
+	color: #a588a5;
+	overflow: hidden;
+}
+.sertop_tag_as .down{
+	display: block;
+	margin: 8px 0 0 21px;
+	width: 6px;
+	height: 3px;
+	overflow: hidden;
+	background-position: -55px 0;  
+}
+/*-------------------------------------*/
+.navright_bottom .serbot_list{
+	width: 210px;
+	height: 54px;
+	padding: 19px 0 28px;
+}
+.serbot_list .serbot_tag{
+	float:left;
+	width: 50px;
+	height: 54px;
+	margin-right: 2px;    /*????????????????为啥在ie6下第一个图片的左边多了5px*/
+}
+.serbot_tag a{
+	display: block;
+	text-align: center;
+	width: 50px;
+	height: 54px;
+}
+.serbot_tag_as .imgtag{
+	display: block;
+	width: 30px;
+	height: 28px;
+	margin-left: 10px;
+}
+.serbot_tag_as .pig{
+	background-position: 0 -86px;
+}
+.serbot_tag_as .mon{
+	background-position: -31px -86px;
+}
+.serbot_tag_as .mov{
+	background-position: 0 -115px;
+}
+.serbot_tag_as .gam{
+	background-position: -31px -115px;
+}
+.serbot_tag_as strong{
+	display: block;
+	margin: 14px 0 0 7px;
+	text-align: center;
+	width: 36px;
+	height: 12px;
+	text-align: center;
+	font: normal 12px/12px "新宋体";
+	color: #a588a5;
+	overflow: hidden;
+}
+/***************************************************************************************/
+.foot{
+	height:553px;
+	background:#f8f8f8;
+	border-top:5px solid #e3101e;
+}
+.foot_cont .dl_list{
+	float:left;
+	width:64px;
+	height:214px;
+	padding:0 73px 0 29px;
+}
+.dl_list .dl_name{
+	height:46px;
+	font:16px/46px "微软雅黑";
+}
+.dl_list .dl_tag{
+	height:22px;
+	font:12px/22px "微软雅黑";
+}
+
+.foot_cont .shouhou{
+	padding:15px 0;
+	height:40px;
+	background:#efefef;
+}
+.shouhou .sh_tag{
+	float:left;
+	width:120px;
+	height:40px;
+	margin-left:102px;
+}
+.sh_tag .tag{
+	float:left;
+	width:40px;
+	height:39px;
+}
+.sh_tag .sh_tips{
+	float:right;
+	font:bold 18px/44px "微软雅黑";
+}
+.sh_tag .fpos{
+	background-position: -101px -46px;
+}
+.sh_tag .spos{
+	background-position: -144px -46px;
+}
+.sh_tag .tpos{
+	background-position: 0 -91px;
+}
+.sh_tag .fopos{
+	background-position: -43px -91px;
+}
+.sh_tag .fipos{
+	background-position: -85px -91px;
+}
+/**********************************************/	
+.foot_cont .shangjia{
+	width:1200px;
+	height:14px;
+	margin-top:19px;
+	color:#5e5e5e;
+	text-align: center;
+}
+.shangjia a{
+	font:12px/12px "微软雅黑";
+}
+.shangjia span{
+	color:#ece8e8;
+	margin-left:15px;
+	margin-right:15px;
+}
+.foot_cont .he_gome{
+	margin-top:15px;
+	margin-left:456px;
+	width:270px;
+	height:18px;
+}
+.he_gome .he_tag{
+	float:left;
+	margin-right:21px;
+	line-height:18px;
+}
+.he_tag img{
+	float:left;
+	height:18px;
+	margin-right:10px;
+}
+.he_tag a{
+	font-family:12px/20px "微软雅黑";
+}
+.he_tag span{
+	float: left;
+	color:#5e5e5e;
+	line-height: 20px;
+	font-weight:bold;
+	overflow: hidden;
+}
+.he_tag .gome{
+	width: 29px;
+	height: 18px;
+	background-position: -171px -91px;
+	margin-right: 10px;
+}
+.foot_cont .la_bot{
+	width: 860px;
+	height:170px;
+	padding-left:161px;
+	background:url(../img/code.png) no-repeat 897px 0;
+}
+.la_bot .xin{
+	width:39px;
+	height:39px;
+	margin:24px 0 0 348px;
+	background-position:-128px -91px;
+}
+.la_bot .la_tips{
+	height:30px;
+	padding-left:26px;
+	margin-top:7px;
+}
+.la_tips span{
+	font:12px/30px "宋体";
+	color:#b0a5a5;
+	margin-right:8px;
+}
+.la_bot .bands{
+	width:745px;
+	height:35px;
+}
+.bands span{
+	float:left;
+	width:124px;
+	height:35px;
+	margin-right:24px;
+}
+.bands .tagone{
+	background-position:0 -133px;
+}
+.bands .tagt{
+	background-position:0 -169px;
+}
+.bands .tagth{
+	background-position:0 -277px;
+}
+.bands .tagfo{
+	background-position:0 -205px;
+}
+.bands .tagfi{
+	background-position:0 -241px;
+}

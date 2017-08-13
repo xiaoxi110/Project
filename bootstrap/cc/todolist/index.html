@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>todos</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="vue.js"></script>
+</head>
+<body>
+    <section class="todoapp">
+        <div>
+            <header class="header" >
+                <h1>todos</h1>
+                <input 
+                    class="new-todo" 
+                    placeholder="请输入内容"
+                    v-model="todos"
+            		v-on:keyup.13="keyupFn"
+                />
+            </header>
+            <section class="main">
+                <input class="toggle-all" type="checkbox" checked="" v-on:click="allFn">
+                <ul class="todo-list">
+                    <li v-for="item in filteredList" v-bind:class="{completed: item.isSelected, editing: item===itemtodo}">
+                        <div class="view">
+                            <input class="toggle" type="checkbox" v-on:click="toggleFn(item)" v-bind:checked="item.isSelected"/>
+                            <label v-on:click="editFn(item)" >{{item.title}}</label>
+                            <button class="destroy" v-on:click="destroyFn(item)"></button>
+                        </div>
+                        <input class="edit" 
+                        	v-focus="itemtodo === item"
+                        	v-on:keyup.esc="cancletodo(item)"
+                        	v-on:keyup.13="saveFn(item)" 
+                        	v-on:blur="saveFn(item)"
+                        	v-model="item.title"/>
+                    </li>
+                </ul>
+            </section>
+            <footer class="footer">
+	            <span class="todo-count">
+	            	<strong>{{noCheckednum}}</strong>
+	            	<span>条未选中</span>
+	            </span>
+	            <span class="btns">
+	            	<a href="#all">显示全部任务</a>
+	            </span>
+	            <span class="btns">
+	            	<a href="#done">显示已完成任务</a>
+	            </span>
+	            <span class="btns">
+	            	<a href="#undone">显示未完成任务</a>
+	            </span>
+            </footer>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>

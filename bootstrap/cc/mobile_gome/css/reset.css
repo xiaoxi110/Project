@@ -1,0 +1,36 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	height: 100%;
+	margin: 0;
+	overflow: auto;
+	background: url(../img/bgt.png) ;
+}
+input {
+	padding:　0;
+	-webkit-appearance:none;/*去除input默认样式*/
+}
+a{
+	-webkit-tap-highlight-color:transparent;
+	text-decoration: none;
+	color: #313033;
+}
+h1,h3{
+	margin: 0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+form{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: none;
+	vertical-align: top;
+	width: 100%;
+}

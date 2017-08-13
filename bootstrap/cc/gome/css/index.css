@@ -1,0 +1,518 @@
+.head .sub_title{
+	float: left;
+	width: 99px;
+	height: 0;
+	padding-top: 43px;
+	overflow: hidden;
+	margin: 7px 88px 0 0;
+	background-position: 0 -46px;
+}
+.banner{
+	width: 100%;
+	height: 450px;
+	background: rgb(255, 185, 35);
+}
+.banner_box .img_box{
+	position: relative;
+	width: 750px;
+	height:450px;
+	margin-left: 200px;
+}
+.img_box .last_banner{
+	position: absolute;
+	left: 0;
+	top: 175px;
+	width: 50px;
+	height: 104px;
+	padding:23px 0 0 11px;
+}
+.last_banner .last{
+	display: block;
+	width: 25px;
+	height: 57px;
+	background-position: -1px -208px;
+}
+.img_box .next_banner{
+	position: absolute;
+	right: 0;
+	top: 175px;
+	width: 50px;
+	height: 104px;
+	padding:23px 0 11px;
+}
+.next_banner .next{
+	display: block;
+	width: 25px;
+	height: 57px;
+	background-position: -38px -208px;
+}
+.img_box .banner_list{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 750px;
+	height: 30px;
+	overflow: hidden;
+}
+.banner_list .banner_tag{
+	float: left;
+	width: 93px;
+	height: 30px;
+	margin-right: 1px;
+}
+.banner_list .banner_last_tag{
+	width: 92px;
+	margin-right: 0;
+	overflow: hidden;
+}
+.banner_tag .ban_name{
+	width: 93px;
+	height: 30px;
+}
+.ban_name .ban_namea{
+	position: relative;
+	width: 93px;
+	height: 30px;
+}
+.ban_name .ban_name_bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 93px;
+	height: 30px;
+	background: #1560cb;
+	opacity: 0.1;
+}
+.ban_name .ban_desc_name{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 93px;
+	height: 30px;
+	text-align: center;
+	font: 12px/30px "仿宋";
+	color: #fff;
+}
+.banner_tag .ban_line{
+	display: none;
+	padding: 14px 6px 11px;
+	width: 78px;
+	height: 5px;
+}
+.ban_line .left_line{
+	float: left;
+	width: 37px;
+	height: 3px;
+	background: #bad7ff;
+}
+.ban_line .right_line{
+	float: right;
+	width: 37px;
+	height: 3px;
+	background: #bad7ff;
+}
+/**************************************************************************/
+.content{
+	width: 100%;
+}
+.content .cont_top{
+	height: 858px;
+}
+.cont_top .gome_select{
+	height: 594px;
+}
+.gome_select .gsel_titile{
+	height: 34px;
+	font: bold 14px/34px "微软雅黑";
+	color: #666666;
+}
+.gome_select .gsel_cont{
+	height: 560px;
+}
+.gsel_cont .gsel_center{
+	width: 500px;
+}
+.gsel_cont .gsel_right{
+	width: 500px;
+	height: 560px;
+	border-top: 1px solid #e5e5e5;
+}
+.gsel_right a{
+	float: left;
+	width: 249px;
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+}
+.cont_top .gess_youlike{
+	width: 1200px;
+	height: 264px;
+}
+.gess_youlike .gyl_title{
+	height: 44px;
+	font: bold 14px/54px "微软雅黑";
+}
+.gess_youlike .gyl_list{
+	overflow: hidden;
+	width: 1198px;
+	height: 147px;
+	padding: 27px 0 14px;
+	border: 1px solid #ececec;
+}
+.gyl_list .gyl_tag{
+	float: left;
+	width: 152px;
+	padding: 0 24px;
+}
+.gyl_tag a{
+	display: block;
+}
+.gyl_tag .goods_name{
+	height: 28px;
+	line-height: 28px;
+}
+.gyl_tag .price{
+	height: 10px;
+	font: 12px/10px "宋体";
+	color:　#e3101e;                /*？？？？？？？？？？？价格在标准浏览器中没有显示出颜色，不知道是为啥*/
+}
+.gyl_list .lasttag{
+	width: 150px;
+	overflow: hidden;
+}
+/*****************************************************************/
+.content .cont_center{
+}
+.cont_center .floor{
+	margin-bottom: 20px;
+}
+.floor .floor_head{
+	height:34px;
+}
+.floor_head .floor_name{
+	float:left;
+	width:210px;
+	height:34px;
+	font:bold 18px/32px "宋体";
+}
+.floor_head .floor_navi{
+	float:left;
+	width:569px;
+	height:34px;
+	padding-top:2px;
+}
+.floor_navi a{
+	float:left;
+	height:34px;
+	padding:0 16px;
+	color:#000;
+	line-height:36px;
+}
+.floor_navi .active{
+	background:#535353;
+	color:#fff;
+	font-weight:bold;
+}
+.floor .floor_cont{
+	width:1200px;
+	height:479px;
+	border-top:2px solid #535353;
+}
+.floor_cont .floor_left{
+	float:left;
+	width:209px;
+	height:478px;
+	background:#ecf4f7;
+	border-right:1px solid #eeeeee;
+}
+.floor_left .fl_top{
+	position:relative;
+	width:209px;
+	height:260px;
+}
+.fl_top a{
+	position:absolute;
+	top:0;
+	left:0;
+	width:209px;
+	height:260px;
+	z-index:1;
+}
+.fl_top .flbox{
+	position:absolute;
+	top:15px;
+	left:16px;
+	width:178px;
+	height:245px;
+}
+.fl_top .fl_title{
+	font:bold 16px/26px "微软雅黑";
+	width:214px;
+	height:26px;
+	text-indent:5px;
+}
+.fl_top .fl_tips{
+	font:14px/24px "宋体";
+	width:214px;
+	height:24px;
+	text-indent:5px;
+}
+.floor_left .fl_center{
+	height:60px;
+	padding:11px 26px 9px 1px;
+	background:#dae9f0;
+}
+.fl_center .fl_tag{
+	float:left;
+	width:91px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.floor_left .fl_bot{
+	width:172px;
+	height:129px;
+	padding:9px 18px 0 19px;
+}
+.fl_bot .fl_bot_tag{
+	float:left;
+	width:86px;
+	height:28px;
+	line-height:28px;
+	color:#999999;
+}
+.floor_cont .floor_center{
+	float:left;
+	width:569px;
+}
+.floor_center .fc_top{
+	position: relative;
+	width:569px;
+	height:259px;
+	border:1px solid #eeeeee;
+	border-top:none;
+}
+.fc_top a{
+	float:left;
+	width:569px;
+	height:259px;
+}
+.fc_top .change_bar{
+	position: absolute;
+	left: 231px;
+	bottom: 14px;
+	width: 111px;
+	height: 3px;
+}
+.change_bar span{
+	float:left;
+	width: 33px;
+	height: 3px;
+	background: #3e3e3e;
+	margin-right: 4px;
+	overflow: hidden;
+}
+.change_bar .active{
+	background: #b61b1f;
+}
+.floor_center .fc_bot{
+	width:570px;
+	height:219px;
+}
+.fc_bot .fcb_tag{
+	float:left;
+	width:189px;
+	height:218px;
+	border-right:1px solid #eeeeee;
+	overflow:hidden;
+}
+.floor_cont .floor_right{
+	float:left;
+	width:420px;
+	height:477px;
+	margin-right:-1px;
+	background:#fafbff;
+}
+.floor_right .flr_tag{
+	float:left;
+	width:209px;
+	border:1px solid #eeeeee;
+	border-top:none;
+	border-left:none;
+}
+.floor .brands{
+	width: 1200px;
+	height: 60px;
+	background: url(../img/brands.png) no-repeat;
+}
+.brands a{
+	float: left;
+	width: 120px;
+	height:60px;
+}
+.cont_center .ads{
+	margin-bottom: 20px;
+}
+.fifth .fifth_center{
+	float: left;
+	position: relative;
+	width: 358px;
+	height: 478px;
+	border: 1px solid #eeeeee;
+	border-top: none;
+	border-left: none;
+	overflow: hidden;
+}
+.fifth_center .text_box{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 358px;
+	height: 95px;
+}
+.text_box .text_bg{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 358px;
+	height: 95px;
+	background: #0a3dce;
+	opacity: 0.9;
+}
+.text_box .text_name{
+	position: absolute;
+	left: 54px;
+	top: 15px;
+	width: 252px;
+	height: 24px;
+	background: url(../img/text_name.png) no-repeat;
+}
+.text_box .text_goods{
+	position: absolute;
+	left: 110px;
+	top: 47px;
+	width: 140px;
+	height: 14px;
+	background: url(../img/text_goods.png) no-repeat;
+}
+.text_box .change_bar{
+	position: absolute;
+	left: 126px;
+	bottom: 14px;
+	width: 111px;
+	height: 3px;
+}
+.change_bar span{
+	float:left;
+	width: 33px;
+	height: 3px;
+	background: #3e3e3e;
+	margin-right: 4px;
+}
+.change_bar .active{
+	background: #b61b1f;
+}
+.fifth .fifth_right{
+	float: left;
+	width: 630px;
+	height: 479px;
+}
+.fifth_right .flr_tag{
+	float: left;
+	width: 209px;
+	border: 1px solid #eee;
+	border-top: none;
+	border-left: none;
+}
+.eighth .eighth_left{
+	float: left;
+	width: 780px;
+	height: 480px;
+}
+.eighth a{
+	float: left;
+}
+.eighth_left span{
+	float: left;
+	width: 210px;
+	height: 480px;
+}
+.eighth .eighth_right{
+	float: left;
+	width: 420px;
+	height: 480px;
+}
+/**********************************/
+.content .cont_bottom{
+	height:270px;
+}
+.cont_bottom .goods_selling{
+	float:left;
+	margin-right:-1px;
+	width:781px;
+	height:252px;
+}
+.goods_selling h3{
+	height:34px;
+	font: 18px/32px "微软雅黑";
+}
+
+.goods_selling .gs_list{
+	width:779px;
+	height:214px;
+	border:1px solid #e6e6e6;
+	overflow: hidden;
+}
+.gs_list .gs_tag{
+	float:left;
+	width:120px;
+	height:166px;
+	padding:35px 36px 13px;
+}
+.gs_tag .gstag_name{
+	margin-top:21px;
+	font:12px/30px "宋体";
+	color:#333333;
+}
+.gs_tag .gstag_price{
+	font:14px/14px "宋体";
+	color:#e3101e;
+	height:14px;
+}
+.cont_bottom .sun{
+	float:left;
+	width:420px;
+	height:252px;
+}
+.sun .sun_head{
+	width:385px;
+	height:199px;
+	padding:16px 16px 0;
+}
+.sun h3{
+	height:34px;
+	font: 18px/32px "微软雅黑";
+}
+.sun .sun_list{
+	width:418px;
+	height:214px;
+	border:1px solid #e6e6e6;
+}
+.sun_list .sun_tag{
+	float:left;
+	width:175px;
+	height:189px;
+	padding:15px 16px 0;
+}
+.sun_tag .suntag_up{
+	width:130px;
+	height:130px;
+	padding:0 23px;
+}
+.sun_tag .suntag_down{
+	padding-top:10px;
+	height:49px;
+}
+.suntag_down a{
+	float:left;
+	margin:0 2px;
+}

@@ -1,0 +1,15 @@
+.clearfix{
+	zoom:1;
+}
+.navigat .navleft{
+	filter:alpha(opacity=80);
+}
+.left_class h3{
+	filter:alpha(opacity=80);
+}
+.ban_name .ban_name_bg{
+	filter:alpha(opacity=10);
+}
+.text_box .text_bg{
+	filter:alpha(opacity=90);
+}

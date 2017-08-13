@@ -1,0 +1,531 @@
+.shopcar .goods_numbox{
+	width: 20px;
+	height: 18px;
+	background: #a5a5a5;
+}
+.shopcar .triangle{
+	border-left-color: #a5a5a5;
+}
+.head{
+	height: 80px;
+	padding:9px 0 0;
+}
+.head .title{
+	margin: 11px 14px 0 0;
+}
+.head .sub_title{
+	float: left;
+	width: 90px;
+	height: 0;
+	padding-top: 45px;
+	overflow: hidden;
+	margin: 10px 94px 0 0;
+	background-position: 0 -313px;
+}
+/******************/
+.head .search{
+	float: left;
+	margin-top: 7px;
+	width: 500px;
+	height: 62px;
+}
+.search form{
+	height: 38px;
+}
+.search input{
+	width: 425px;
+	height: 32px;
+	line-height: 34px;
+	border: 3px solid #e3101e;
+	text-indent: 10px;
+}
+.search .button{
+	float: left;
+	width: 69px;
+	height: 38px;
+	background: #e3101e;
+	text-align: center;
+}
+.button a{
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	overflow: hidden;
+}
+/******************/
+.left_class h3{
+	width: 198px;
+	height: 36px;
+	padding-top: 3px;
+	border: 1px solid #e6e6e6;
+	border-bottom: none;
+	background: #fff;
+	opacity: 0.8;
+}
+.left_class .whole_type{
+	float: left;
+	height: 36px;
+	font: 16px/36px "微软雅黑";
+	color: #333333;
+	text-indent: 12px;
+}
+.left_class .down{
+	float: right;
+	width: 12px;
+	height: 9px;
+	margin: 12px 10px 0 0;
+	background-position: -49px -145px;
+	overflow: hidden;
+}
+.left_class .navleft{
+	display: none;
+}
+.nav_as a{
+	font: bold 16px/36px "宋体";
+}
+.nav_as .active{
+	color: #cc0000;
+	border-bottom: 4px solid #cc0000;
+}
+.navigat .navright{
+	display: none;
+}
+
+
+/*******************************************************/
+.content{
+	width: 100%;
+	border-top: 1px solid #e6e6e6;
+	background: url(../img/back_line.png) repeat-x;
+}
+.content .main_top{
+}
+.main_top .search_result{
+	height: 47px;
+	border-bottom: 1px solid #a3a3a3;
+}
+.search_result .search_name{
+	width: 98px;
+	height: 42px;
+	padding-top: 5px;
+}
+.search_name .name{
+	float: left;
+	height: 42px;
+	font: 12px/42px "宋体";
+	color: #5d5d5d;
+	text-indent: 5px;
+}
+.search_name .to_next{
+	float: right;
+	width: 6px;
+	height: 8px;
+	background-position: -18px -16px;
+	margin: 15px 10px 0 0;
+	overflow: hidden;
+}
+.search_result .input_box{
+	float: left;
+	width: 134px;
+	height: 42px;
+	padding-top: 5px;
+}
+.input_box form{
+	float: left;
+	height: 20px;
+	margin-top: 10px;
+}
+.input_box .search_box{
+	width: 107px;
+	height: 20px;
+	padding: 0 19px 0 6px;
+	border: 1px solid　#a5a5a5;
+	line-height: 20px;
+}/* 在ie6下，输入框出现滚动的问题*/
+.input_box .bigger{
+	float: left;
+	width: 11px;
+	height: 12px;
+	background-position: -50px -155px;
+	overflow: hidden;
+	margin: 15px 0 0 -20px;
+}
+
+.main_top .what{
+	height: 14px;
+	padding: 12px 0 14px;
+	border-bottom: 1px solid #a3a3a3;
+}
+.what .what_name{
+	float: left;
+	font: 12px/14px "宋体";
+	color: #333333;
+	margin-right: 11px;
+}
+.what .what_chice{
+	float: left;
+}
+.what_chice a{
+	float: left;
+	height: 14px;
+	font: 12px/14px "宋体";
+	padding: 0 10px 0 8px;
+	border-right: 1px solid #e6e6e6;
+	color: #0066cc;
+}
+
+/**xxxxxxxxxxxxxxx**/
+.types .about_tips{
+	height: 36px;
+	padding-top: 4px;
+	line-height: 36px;
+	color: #868686;
+	border-bottom: 1px solid #f2f2f2;
+	text-indent: 4px;
+}
+.main_top .red{
+	color: #cc0000;
+	font-weight: bold;
+}
+.types .mian_types{
+	height: 286px;
+}
+.mian_types .brands_class{
+	height: 85px;
+	padding: 10px 0;
+	border-bottom: 2px solid #f2f2f2;
+}
+.brands_class dt{
+	float: left;
+	width: 111px;
+	height: 85px;
+	font: bold 12px/22px "微软雅黑";
+}
+.brands_class .by_letter{
+	float: left;
+	width: 1073px;
+	height: 22px;
+	padding-left: 4px;
+}
+.by_letter .whole{
+	float: left;
+	width: 70px;
+	height: 22px;
+	background: #fdedee;
+	overflow: hidden;
+	text-align: center;
+	line-height: 22px;
+}
+.whole a{
+	font: bold 14px "微软雅黑";
+	color: #cc0000;
+}
+.by_letter .letters{
+	float: left;
+	width: 889px;
+	height: 22px;
+	padding-left: 16px;
+	line-height: 22px;
+}
+.letters a{
+	margin-right: 16px;
+	font: 10px "arial";
+	color: #dccccc;
+}
+.letters .chosed{
+	color: #0066cc;
+}
+.by_letter .many_choice{
+	float: left;
+	width: 34px;
+	height: 18px;
+	border: 1px solid #dad9d9;
+	text-align: center;
+	line-height: 18px;
+	overflow: hidden;
+	margin-top: 1px;
+}
+.by_letter .to_more{
+	float: right;
+	width: 37px;
+	height:　22px;
+	line-height: 22px;
+}
+.to_more .more_font{
+	width: 24px;
+	height: 22px;
+	line-height: 22px;
+	float: left;
+}
+.to_more .more_img{
+	float: right;
+	width: 9px;
+	height: 5px;
+	margin: 9px 0 0 4px;
+	background-position: -10px -15px;
+	overflow: hidden;
+}
+.brands_class .by_name{
+	float: left;
+	width: 1073px;
+}
+.by_name a{
+	/*background: #fff; *//*不加背景的话会换行？？？？？？？？？？？？？？*/
+	float: left;
+	width: 155px;
+	height: 20px;
+	padding-left: 5px;
+	line-height: 20px;
+	margin-top: 12px;
+}
+.mian_types .hot_class{
+	height: 42px;
+	border-bottom: 2px solid #f2f2f2;
+}
+.hot_class dt{
+	float: left;
+	width: 118px;
+	height: 42px;
+	line-height: 42px;
+}
+.hot_class .hotcon{
+	float: left;
+	width: 11px;
+	height: 11px;
+	background-position: -24px -184px;
+	margin: 15px 8px 0 0;
+	overflow: hidden;
+}
+.hot_class .hot_name{
+	font: bold 12px/42px "微软雅黑";
+}
+.hot_class dd{
+	float: left;
+	height: 42px;
+}
+.hot_class dd a{
+	font: 12px/42px "宋体";
+	color: #636363;
+}
+
+.mian_types .relative_class{
+	height: 64px;
+	padding: 5px 0;
+	border-bottom: 2px solid #f2f2f2;
+}
+.relative_class dt{
+	float: left;
+	width: 118px;
+	height: 64px;
+}
+.relative_class .relcon{
+	float: left;
+	width: 11px;
+	height: 11px;
+	background-position: -36px -184px;
+	margin: 10px 8px 0 0;
+	overflow: hidden;
+}
+.relative_class .rel_name{
+	font: bold 12px/32px "微软雅黑";
+}
+.relative_class dd{
+	float: left;
+	width: 1082px;
+	height: 64px;
+
+}
+.relative_class .rel_choice{
+	float: left;
+	width: 1000px;
+	height: 64px;
+}
+.rel_choice a{
+	float: left;
+	width: 148px;
+	height: 32px;
+	line-height: 32px;
+	padding-right: 10px;
+}
+.relative_class .rel_more{
+	float: right;
+	width: 53px;
+	height:　32px;
+}
+.rel_more .morefont{
+	float: left;
+	width: 24px;
+	height: 32px;
+	line-height: 32px;
+}
+.rel_more .moreimg{
+	float: right;
+	width: 9px;
+	height: 5px;
+	margin: 14px 16px 0 0;
+	background-position: -10px -15px;
+	overflow: hidden;
+}
+
+.mian_types .size_class{
+	height: 42px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.size_class dt{
+	float: left;
+	width: 118px;
+	height: 42px;
+	font: bold 12px/42px "微软雅黑";
+}
+.size_class dd{
+	float: left;
+	width: 1073px;
+	height: 42px;
+	line-height: 42px;
+}
+.size_class a{
+	margin-right: 92px;
+}
+/*************************************/
+.shows{
+}
+.shows .shows_left{
+	float: left;
+	width: 990px;
+	height: 73px;
+	border-top: 2px solid #888888;
+	background: #f8f8f8;
+}
+.shows .shows_right{
+	float: right;
+	width: 200px;
+	height: 1000px;
+	border: 1px solid #e6e6e6;
+	background: yellowgreen;
+}
+.shows_left .row1{
+	width: 979px;
+	height: 32px;
+	padding: 5px 0 0 10px;
+}
+.row1 .ordered{
+	float: left;
+	width: 270px;
+	height: 30px;
+	border: 1px solid #cccccc;
+}
+.ordered a{
+	float: left;
+	width: 54px;
+	height: 30px;
+	color: #5e5e5e;
+	text-align: center;
+	line-height: 30px;
+}
+.ordered .active{
+	color: #fff;
+	background: #cc0000;
+}
+.row1 .money_range{
+	float: left;
+	padding-left: 21px;
+	width: 173px;
+	height: 32px;
+}
+.money_range dt{
+	float: left;
+	width: 65px;
+	height: 32px;
+	line-height: 32px;
+}
+.money_range dd{
+	float: left;
+	width:  108px;
+	height: 20px;
+	padding: 6px 0;
+}
+.money_range input{
+	float: left;
+	width: 46px;
+	height: 18px;
+	overflow: hidden;
+	border: 1px solid #cccccc;
+	color: #bcbcbc;
+	text-indent: 2px;
+}
+.row1 .row1_right{
+	float: right;
+	width: 158px;
+	height: 32px;
+}
+.row1_right .total{
+	float: left;
+	width: 73px;
+	height: 32px;
+	line-height: 32px;
+	color: #cb0100;
+}
+.row1_right .num{
+	float: right;
+	width: 85px;
+	height: 32px;
+}
+.num .page{
+	float: left;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	color: #a5a5a5;
+}
+.page .drak{
+	color: #5e5e5e;
+}
+.num .choice_page{
+	float: right;
+	width: 51px;
+	height: 32px;
+}
+.choice_page a{
+	float: left;
+	width: 24px;
+	height: 30px;
+	border: 1px solid #dddddd;
+	color: #cccccc;
+	margin-right: -1px;
+	line-height: 30px;
+	text-align: center;
+}
+/******/
+.shows_left .row2{
+	width: 700px;
+	height: 28px;
+	padding: 8px 0 0 25px;
+	line-height: 26px;
+}
+.row2 .text_box{
+	float: left;
+}
+.row2 .text{
+	float: left;
+	width: 146px;
+	height: 24px;
+	border: 1px solid #e5e5e5;
+	line-height: 24px;
+	text-indent: 6px;
+}
+.row2 .check_box{
+	float: left;
+	width: 174px;
+	height: 26px;
+	padding-left: 10px;
+}
+.check_box div{
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	margin-right: 14px;
+}
+.row2 .radio{
+	float: left;
+	line-height: 26px;
+}

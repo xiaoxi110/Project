@@ -1,0 +1,125 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+h3{
+	padding: 0;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+#tanbox{
+	/*width: 286px;*/
+	/*	height: 146px;*/
+	background: #fff;
+	border: 2px solid #55addc;
+	border-radius: 8px;
+	padding: 20px;
+	position: absolute;
+	z-index : 100;
+}
+
+.pcontent{
+	width: 100%;
+}
+.close_btn{
+	height: 24px;
+}
+.close_btn .title{
+	float: left;
+	font: bold 16px/24px "微软雅黑";
+	color: deeppink;
+}
+.close_btn .btnclose{
+	float: right;
+	width: 15px;
+	height: 15px;
+	font: 16px/16px "微软雅黑";
+	color: #55addc;
+}
+/*////////////////////////////////*/
+.pcontent .del{
+	width: 36px;
+	height: 36px;
+	float: left;
+	background: url(../img/cool.png) no-repeat;
+	background-position: -39px 0;
+	margin: 12px 0 0 20px;
+}
+.pcontent .qes{
+	width: 214px;
+	margin-left: 17px;
+	margin-bottom: 30px;
+	float: right;
+}
+.qes .titl{
+	height: 38px;
+	font: bold 16px/38px "微软雅黑";
+	color: deeppink;
+}
+.qes .cont{
+	font: bold 14px/20px "微软雅黑";
+	color: gold;
+}
+/*///////////////////////////////////*/
+.pcontent .mtit{
+	width: 360px;
+	padding: 16px 0;
+	font: bold 14px/24px "微软雅黑";
+}
+.mtit:before{
+	display: inline-block;
+	width: 24px;
+	height: 21px;
+	content: "";
+	margin-right: 10px;
+	background: url(../img/cool.png) no-repeat;
+	background-position: -39px -112px;
+}
+.conte{
+	width: 358px;
+	height: 238px;
+	border: 1px solid #e1e8ed;
+	margin-bottom: 18px;
+	overflow: auto;
+}
+.tipmes{
+	width: 100%;
+	height: 20px;
+	font: 14px/16px "微软雅黑";
+	color: red;
+}
+/*/////////////////////////////////*/
+.btns{
+	height: 30px;
+	margin-top: 31px;
+	padding-bottom: 12px;
+}
+.btnconfirm{
+	width: 78px;
+	height: 28px;
+	border: 1px solid #55addc;
+	float: left;
+	text-align: center;
+	font: bold 16px/30px "微软雅黑";
+	color: #6ab7e0;
+	margin-left: 55px;
+}
+.btncancel{
+	width: 78px;
+	height: 28px;
+	border: 1px solid #55addc;
+	float: left;
+	text-align: center;
+	font: bold 16px/30px "微软雅黑";
+	margin-left: 24px;
+	color: #6ab7e0;
+}
+.texts{
+	width: 200px;
+	height: 100px;
+}

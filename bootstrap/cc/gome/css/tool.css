@@ -1,0 +1,76 @@
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.small_icon{
+	background: url(../img/small_icon.png) no-repeat;
+}
+.icon{
+	background: url(../img/icon.png) no-repeat;
+}
+.top .hot,.head .hot, .navigat .hot{
+	color: #e3101e;
+}
+.dark{
+	color:#333;
+}
+.margin_r{
+	margin-right:19px;
+}
+.line{
+	float: right;
+	width: 1px;
+	height: 12px;
+	margin-top: 2px;
+	background-position: 0 -11px;
+	overflow: hidden; 		/*高度小于19px在ie6下会出现最小高度问题，加overflow：hidden；可以解决*/
+}
+.myup{
+	float:left;
+	width: 7px;
+	height: 4px;
+	margin: 8px 0 0 4px;
+	background-position: -2px -11px;
+	overflow: hidden;
+}
+.up{
+	float:left;
+	width: 7px;
+	height: 4px;
+	background-position: -2px -16px;
+	overflow: hidden;
+}
+.shop_in{
+	float: right;
+	width: 15px;
+	height: 15px;
+	overflow: hidden;
+	color:#0066cc;
+	background-position: -11px 0;
+}
+.lineheight{
+	line-height: 16px;
+}
+.ser_wrap{
+	width: 210px;
+	margin: 0 auto;
+}
+.wrap0{
+	width: 1210px;
+	margin: 0 auto;
+}
+.wrap1{
+	width: 1205px;
+	margin: 0 auto;
+}

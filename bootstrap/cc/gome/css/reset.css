@@ -1,0 +1,33 @@
+body{
+	font:12px "微软雅黑";
+	margin: 0;
+}
+ul,dl,dd{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	font:12px "宋体";
+	text-decoration: none;
+	color: #5e5e5e;
+}
+p{
+	margin: 0;
+}
+h1,h2,h3{
+	margin:0;
+	padding: 0;
+}
+form{
+	margin: 0;
+	padding: 0;
+}
+input{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: none;
+	vertical-align: top;
+}

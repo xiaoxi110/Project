@@ -1,0 +1,11 @@
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
